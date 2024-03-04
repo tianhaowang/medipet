@@ -1,0 +1,67 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center-container {
+  width: 100%;
+  text-align: center;
+}
+.container-at-least-full {
+  min-height: 95vh;
+}
+
+.large-padding-top-container {
+  padding-top: 4em;
+}
+.medium-padding-bottom-container {
+  padding-bottom: 2em;
+}
+
+.small-padding-top-container {
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 5.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-size: 2.75em;
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+}
+
+table, label, div, span, input {
+  font-family: "Montserrat", sans-serif;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0)
+}
+
+.footer .logo-uwaterloo {
+  max-width: 250px;
+}
+
+.hidden {
+  display: none;
+}

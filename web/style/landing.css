@@ -1,0 +1,42 @@
+.landing-image-text {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.landing-image-text img {
+  min-height: 600px;
+  max-height: 80vh;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+
+.landing-image-text .landing-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.user-headshot {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.user-description {
+  max-width: 300px;
+  margin: auto;
+}
+
+.new-description {
+  max-width: 450px;
+  margin: auto;
+}
